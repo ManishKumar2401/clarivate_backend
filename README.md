@@ -35,6 +35,8 @@ $ npm install
 ## update required
 
 find app.module.ts and update below value
+
+```javascript
 TypeOrmModule.forRoot({
       type: "postgres",
       host: 'localhost',
@@ -43,6 +45,7 @@ TypeOrmModule.forRoot({
       password: 'password',
       database: "postgres"
     }),
+```
 
 ## Compile and run the project
 
