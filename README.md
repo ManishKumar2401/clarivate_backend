@@ -32,6 +32,18 @@
 $ npm install
 ```
 
+## update required
+
+find app.module.ts and update below value
+TypeOrmModule.forRoot({
+      type: "postgres",
+      host: 'localhost',
+      port: 5432,
+      username: 'postgres',
+      password: 'password',
+      database: "postgres"
+    }),
+
 ## Compile and run the project
 
 ```bash
